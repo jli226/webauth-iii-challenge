@@ -1,0 +1,22 @@
+{
+  "name": "webauth-iii-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/jli226/webauth-iii-challenge.git",
+  "author": "Jenny Li <jli226@fordham.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.4",
+    "nodemon": "^1.19.2",
+    "sqlite3": "^4.1.0"
+  }
+}
